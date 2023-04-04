@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,900;1,100;1,400;1,900&display=swap');
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+
+header{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	line-height: 80px;
+}
+
+header .logo{
+	margin-top: 15px;
+	margin-left: 80px;
+}
+
+header ul{
+	display: flex;
+	justify-content: space-between;
+    list-style: none;
+	gap: 30px;
+	overflow: hidden;
+	margin-right: 50px;
+}
+
+header ul li{
+    float: left;
+}
+
+header ul li a{
+    color: black;
+	font-weight: bold;
+	text-align: center;
+	padding: 0px 16px 0px 16px;
+	text-decoration: none;
+	position: relative;
+}
+
+header ul li a:hover {
+	color: #c9ada7;
+}
+
+.h-skill{
+	background-color: #edede9;
+}
+
+#skill h1{
+    text-align: center;
+    font-size: 50px;
+    margin: 30px 0px 50px 0px;
+}
+
+.skill-inti{
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+}
+
+
+.language h3{
+    margin-bottom: 30px;
+    color:#c9ada7;
+}
+
+
+.html{
+    margin-bottom: 15px;
+}
+
+.css{
+    margin-bottom: 15px;
+}
+
+.js{
+    margin-bottom: 15px;
+}
+
+.c{
+    margin-bottom: 15px;
+}
+
+.microsoft h3{
+    margin-bottom: 30px;
+    color:#c9ada7;
+}
+
+.word{
+    margin-bottom: 15px;
+}
+
+.excel{
+    margin-bottom: 15px;
+}
+
+.mulmed h3{
+    margin-bottom: 30px;
+    color:#c9ada7;
+}
+
+.photo{
+    margin-bottom: 15px;
+}
+
+.premiere{
+    margin-bottom: 15px;
+}
+
+.ae{
+    margin-bottom: 15px;
+}
+
+.ai{
+    margin-bottom: 15px;
+}
+
+#porto .portofolio h1{
+	text-align: center;
+    font-size: 50px;
+    margin: 50px 0px 50px 0px;
+	padding-top: 20px;
+}
+
+#porto .mix{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#porto .mix h3{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#porto .mix p{
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+#porto .video{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#porto .video h3{
+	text-align: center;
+	margin-top: 20px;
+}
+
+#porto .video p{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#porto{
+	width: 100%;
+	height: 106vh;
+	background-image: linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url(pic/White\ freshness.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#spesial h1{
+	text-align: center;
+	font-size: 50px;
+    margin-bottom: 50px;
+	padding-top: 30px;
+}
+
+#spesial h2{
+	font-size: 35px;
+	color: #c9ada7;
+}
+
+.figma{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 50px;
+}
+
+.figma .box{
+	margin-left: 100px;
+}
+
+.figma .deskripsi{
+	margin-right: 500px;
+}
+
+.figma1{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.figma1 .deskripsi{
+	margin-left: 500px;
+}
+
+.figma1.box{
+	margin-right: 150px;
+}
+
+.footer{
+	background-color: #edede9;
+    padding: 70px 0;
+}
+
+.row{
+	display: flex;
+	justify-content: space-around;
+	align-items: start;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: black;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 600;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: black;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: black;
+	text-decoration: none;
+	font-weight: 400;
+	color: black;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color:#c9ada7;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: black;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #c9ada7;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
